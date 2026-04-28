@@ -6,6 +6,18 @@
 - На проверку отправьте получившуюся схему в формате pkt и скриншот, где виден процесс настройки маршрутизатора.
 
 ### Решение
+Настрока Router1:
+```
+enable
+configure terminal
+interface GigabitEthernet0/1
+standby 1 track GigabitEthernet0/0
+standby 1 priority 95
+standby 1 preempt 
+end
+write memory
+
+```
 
 ------
 
