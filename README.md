@@ -1,3 +1,5 @@
+Домашнее задание к занятию 1 «Disaster recovery и Keepalived»   Дедяхин Игорь
+
 ### Задание 1
 - Дана [схема](1/hsrp_advanced.pkt) для Cisco Packet Tracer, рассматриваемая в лекции.
 - На данной схеме уже настроено отслеживание интерфейсов маршрутизаторов Gi0/1 (для нулевой группы)
@@ -16,8 +18,21 @@ standby 1 priority 95
 standby 1 preempt 
 end
 write memory
-
 ```
+![screen]()
+
+
+Настрока Router2:
+```
+enable
+configure terminal
+interface GigabitEthernet0/1
+standby 1 track GigabitEthernet0/0
+end
+write memory
+```
+
+![screen]()
 
 ------
 
