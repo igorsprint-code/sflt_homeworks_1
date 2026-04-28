@@ -57,7 +57,7 @@ write memory
 
 ### Решение
 
-Запускаем две ВМ с IP 192.168.1.76  и 192.168.1.77:
+Запускаем две ВМ с IP 192.168.1.76  и 192.168.1.77 (плавающий IP 192.168.1.222):
 
 ![screen](https://github.com/igorsprint-code/sflt_homeworks_1/blob/main/ip_vm.jpg)
 
@@ -91,6 +91,28 @@ vrrp_instance VI_1 {
 }
 
 ```
+
+Демонстрация переезда плавающего ip на другой сервер в случае недоступности порта или файла index.html
+
+При обращении к плавающему IP в браузере видим стартовую страницу на ВМ 192.168.1.76
+
+![screen](https://github.com/igorsprint-code/sflt_homeworks_1/blob/main/Demo1.jpg)
+
+Изменим порт в настройках nginx:
+
+![screen](https://github.com/igorsprint-code/sflt_homeworks_1/blob/main/8880.jpg)
+
+После перезапуска nginx при обращении к плавающему IP в браузере видим уже стартовую страницу на ВМ 192.168.1.77:
+
+![screen](https://github.com/igorsprint-code/sflt_homeworks_1/blob/main/77.jpg)
+
+
+
+
+
+
+
+
 
 
  
