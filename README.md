@@ -19,7 +19,7 @@ standby 1 preempt
 end
 write memory
 ```
-![screen]()
+![screen](https://github.com/igorsprint-code/sflt_homeworks_1/blob/main/Router1.jpg)
 
 
 Настрока Router2:
@@ -32,7 +32,15 @@ end
 write memory
 ```
 
-![screen]()
+![screen](https://github.com/igorsprint-code/sflt_homeworks_1/blob/main/Router2.jpg)
+
+
+Пинг между PC0 и Server0 при разрыве
+
+![screen](https://github.com/igorsprint-code/sflt_homeworks_1/blob/main/PING_1.jpg)
+
+![screen](https://github.com/igorsprint-code/sflt_homeworks_1/blob/main/PING_2.jpg)
+
 
 ------
 
