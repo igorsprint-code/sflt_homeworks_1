@@ -60,6 +60,14 @@ write memory
 Запускаем две ВМ с IP 192.168.1.76  и 192.168.1.77:
 
 ![screen](https://github.com/igorsprint-code/sflt_homeworks_1/blob/main/ip_vm.jpg)
+
+BASH скрипт для проверки доступности порта и существования index.html:
+```bash
+#!/bin/bash
+ss -tunlp | grep -q '0.0.0.0:80' && [ -f /var/www/html/index.html ] && exit 0 || exit 1
+
+
+```
  
 
 
