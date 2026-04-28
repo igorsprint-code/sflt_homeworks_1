@@ -57,6 +57,12 @@ write memory
 
 ### Решение
 
+Запускаем две ВМ с IP 192.168.1.76  и 192.168.1.77:
+
+![screen](https://github.com/igorsprint-code/sflt_homeworks_1/blob/main/ip_vm.jpg)
+ 
+
+
 
 ------
 
