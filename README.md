@@ -42,6 +42,10 @@ write memory
 ![screen](https://github.com/igorsprint-code/sflt_homeworks_1/blob/main/PING_2.jpg)
 
 
+
+Схема в формате pkt: https://github.com/igorsprint-code/sflt_homeworks_1/blob/main/hsrp_homework_Dedyakhin_IV.pkt
+
+
 ------
 
 ### Задание 2
